@@ -1,0 +1,1 @@
+This error occurs when using AsyncStorage in Expo. The issue is that AsyncStorage.setItem doesn't always update the value immediately and calling AsyncStorage.getItem right after setItem might return the old value.  This can lead to unexpected behavior in your app.
